@@ -1,7 +1,10 @@
 # P4-example-code
-P4 example code referred by my posted article at my blog www.MaoJianwei.com and SDNLAB.com
-这里存放我撰写的“P4入门教程”系列文章中用到的P4示例程序
 
+　　P4 example code referred by my posted article at my blog www.MaoJianwei.com and www.SDNLAB.com
+
+　　这里存放我撰写的“P4入门教程”系列文章中用到的P4示例程序，文章发表在我的博客 www.MaoJianwei.com 以及国内知名SDN资讯和技术网站 www.SDNLAB.com
+
+.
 
 系列文章：
 
