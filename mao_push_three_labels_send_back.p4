@@ -81,7 +81,7 @@ parser ParserImpl(packet_in packet, out Mao_MPLS_Headers hdr, inout mao_unused_m
 
 
 
-control verifyChecksum(in Mao_MPLS_Headers hdr, inout mao_unused_metadata meta) {
+control verifyChecksum(inout Mao_MPLS_Headers hdr, inout mao_unused_metadata meta) {
 
     apply {    }
 }

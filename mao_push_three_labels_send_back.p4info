@@ -1,0 +1,49 @@
+tables {
+  preamble {
+    id: 33567445
+    name: "ip_map_mpls"
+    alias: "ip_map_mpls"
+  }
+  match_fields {
+    id: 1
+    name: "hdr.ip.dstAddr"
+    bitwidth: 32
+    match_type: EXACT
+  }
+  action_refs {
+    id: 16793508
+  }
+  action_refs {
+    id: 16794545
+  }
+  size: 256
+}
+actions {
+  preamble {
+    id: 16793508
+    name: "drop"
+    alias: "drop"
+  }
+}
+actions {
+  preamble {
+    id: 16794545
+    name: "push_3_labels_and_send_back"
+    alias: "push_3_labels_and_send_back"
+  }
+  params {
+    id: 1
+    name: "L_1"
+    bitwidth: 20
+  }
+  params {
+    id: 2
+    name: "L_2"
+    bitwidth: 20
+  }
+  params {
+    id: 3
+    name: "L_3"
+    bitwidth: 20
+  }
+}
